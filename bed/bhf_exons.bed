@@ -1,0 +1,3 @@
+ctg.000037F	2293324	2293490	.	.	-	funannotate	exon	.	ID=FUN_008083-T1.exon1;Parent=FUN_008083-T1;
+ctg.000037F	2294098	2294571	.	.	+	funannotate	exon	.	ID=FUN_008084-T1.exon2;Parent=FUN_008084-T1;
+ctg.000037F	2297370	2297490	.	.	+	funannotate	exon	.	ID=FUN_008084-T1.exon3;Parent=FUN_008084-T1;
