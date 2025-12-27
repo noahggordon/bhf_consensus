@@ -9,7 +9,7 @@ This repository contains:
   EMBOSS `transeq`.
 - `bhf_consensus.yml` for creating a conda environment with dependencies.
 - BED files in `./bed/` defining BHF exon coordinates for the *new Botryllus*
-  genome available at: https://botryllus.stanford.edu
+  genome available at: TBD
 
 ## Outputs
 
