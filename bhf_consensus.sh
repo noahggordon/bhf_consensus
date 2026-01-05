@@ -28,7 +28,7 @@ for BED_FILE in "${BED_FILES[@]}"; do
     EXON=$(basename "$BED_FILE" .bed | sed 's/bhf_exon//')
     
     # Run the samtools mpileup and ivar consensus command
-    samtools mpileup -l "$BED_FILE" -d 0 "$BAM_FILE" | ivar consensus -m 4 -n N -q 20 -t 0 -p "${OUTPUT_PREFIX}.exon${EXON}"
+    samtools mpileup -l "$BED_FILE" -d 0 "$BAM_FILE" | ivar consensus -m 4 -n N -q 20 -t .75 -p "${OUTPUT_PREFIX}.exon${EXON}"
 done
 
 # Generate consensus sequence from BAM alignment file
